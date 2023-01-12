@@ -1,6 +1,8 @@
 DROP DATABASE IF EXISTS sieteymedio;
 CREATE DATABASE sieteymedio CHARACTER SET utf8mb4;
 USE sieteymedio;
+
+select * from juego;
  
 CREATE TABLE juego (
     ID_juego INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
@@ -29,13 +31,12 @@ CREATE TABLE carta (
 	FOREIGN KEY(id_palo) REFERENCES palo(ID_palo),
     FOREIGN KEY(id_juego) REFERENCES juego(ID_juego)
 );
- 
+
 CREATE TABLE jugadores (
-    ID_usuario VARCHAR(10) PRIMARY KEY,
-    password VARCHAR(20) NOT NULL,
-    email VARCHAR(30) NOT NULL,
-	id_juego INT UNSIGNED NOT NULL,
-    FOREIGN KEY(id_juego) REFERENCES juego(ID_juego)
+    id_jugador VARCHAR(10) PRIMARY KEY,
+    name VARCHAR(20) NOT NULL,
+    riesgo VARCHAR(30) NOT NULL,
+	human_bot INT UNSIGNED NOT NULL
 );
  
 CREATE TABLE participantes (
