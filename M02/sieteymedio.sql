@@ -77,6 +77,8 @@ CREATE TABLE turnos (
     ID_turno INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     apuesta_min INT(2) UNSIGNED NOT NULL,
 	apuesta_max INT(2) UNSIGNED NOT NULL,
+    puntuacion_inicial int (2) not null,
+    puntuacion_final int (2) not null,
     num_jugadores INT(2) UNSIGNED NOT NULL,
 	carta_inicial INT UNSIGNED NOT NULL,
 	ganador INT UNSIGNED NOT NULL,
