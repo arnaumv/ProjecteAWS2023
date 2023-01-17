@@ -1,0 +1,18 @@
+Ejemplo --------->>>>
+
+
+CREATE VIEW ranking AS
+SELECT 
+    jugador.nombre, 
+    SUM(partida.puntos_final - partida.puntos_inicial) AS ganancias_obtenidas, 
+    COUNT(partida.id_partida) AS partidas_jugadas, 
+    SUM(partida.tiempo_jugado) AS minutos_jugados
+FROM 
+    jugador
+    JOIN partida ON jugador.id_jugador = partida.id_jugador
+GROUP BY 
+    jugador.nombre
+ORDER BY 
+    ganancias_obtenidas DESC,
+    partidas_jugadas DESC, 
+    minutos_jugados DESC
