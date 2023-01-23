@@ -13,15 +13,12 @@ CREATE TABLE jugadores (
 
 create table player_game (
 	cardgame_id int ,
-    player_id varchar(25),
+    id_jugador varchar(25),
 	initial_card_id char(3) not null,
     starting_points tinyint,
-    ending_points tinyint
-    ,
+    ending_points tinyint,
     foreign key (cardgame_id ) references cardgame(cardgame_id),
-	foreign key (player_id) references player(player_id)
-
-);
+	foreign key (id_jugador) references jugadores(id_jugador) );
 
 create table cardgame (
 	cardgame_id int primary key,
@@ -30,9 +27,7 @@ create table cardgame (
     start_hour datetime not null,
     end_hour datetime not null,
     deck_id char(3),
-    foreign key (deck_id) references deck(deck_id)
-
-);
+    foreign key (deck_id) references deck(deck_id));
 
 create table player_game_round (
 	cardgame_id int,
@@ -44,22 +39,20 @@ create table player_game_round (
     starting_round_points tinyint,
     ending_round_points tinyint,
     foreign key (cardgame_id) references cardgame(cardgame_id),
-    foreign key (player_id) references player(player_id)
-);
+    foreign key (id_jugador) references jugadores(id_jugador));
 
 create table deck (
 	deck_id char(3) primary key,
-    deck_name varchar(25)
-);
+    deck_name varchar(25));
 
 create table card (
-
 	card_id char(3),
     card_name varchar(25),
     card_value decimal(3,1),
     card_priority tinyint,
     card_real_value tinyint,
     deck_id char(3),
-    foreign key (deck_id) references deck(deck_id)
-
-);
+    foreign key (deck_id) references deck(deck_id));
+    
+    
+    
