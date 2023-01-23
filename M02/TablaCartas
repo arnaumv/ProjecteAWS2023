@@ -1,193 +1,88 @@
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',1,1,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',2,2,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',3,3,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',4,4,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',5,5,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',6,6,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',7,7,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,8,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,9,'oros');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,10,'oros');
+insert into card (card_id,card_name,card_value,card_real_value)
+values('01','oros',1,1);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('02','oros',2,2);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('03','oros',3,3);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('04','oros',4,4);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('05','oros',5,5);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('06','oros',6,6);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('07','oros',7,7);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('08','oros',0.5,8);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('09','oros',0.5,9);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('10','oros',0.5,10);
+select * from card;
 
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',1,1,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',2,2,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',3,3,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',4,4,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',5,5,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',6,6,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',7,7,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,8,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,9,'bastos');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,10,'bastos');
-
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',1,1,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',2,2,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',3,3,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',4,4,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',5,5,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',6,6,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',7,7,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,8,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,9,'espadas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,10,'espadas');
-
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',1,1,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',2,2,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',3,3,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',4,4,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',5,5,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',6,6,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',7,7,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,8,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,9,'copas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('española',0.5,10,'copas');
+insert into card (card_id,card_name,card_value,card_real_value)
+values('11','bastos',1,1);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('12','bastos',2,2);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('13','bastos',3,3);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('14','bastos',4,4);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('15','bastos',5,5);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('16','bastos',6,6);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('17','bastos',7,7);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('18','bastos',0.5,8);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('19','bastos',0.5,9);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('20','bastos',0.5,10);
 
 
 
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',1,1,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',2,2,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',3,3,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',4,4,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',5,5,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',6,6,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',7,7,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,8,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,9,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,10,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,11,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,12,'picas');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,13,'picas');
+insert into card (card_id,card_name,card_value,card_real_value)
+values('21','espadas',1,1);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('22','espadas',2,2);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('23','espadas',3,3);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('24','espadas',4,4);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('25','espadas',5,5);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('26','espadas',6,6);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('27','espadas',7,7);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('28','espadas',0.5,8);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('29','espadas',0.5,9);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('30','espadas',0.5,10);
 
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',1,1,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',2,2,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',3,3,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',4,4,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',5,5,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',6,6,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',7,7,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,8,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,9,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,10,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,11,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,12,'treboles');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,13,'treboles');
 
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',1,1,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',2,2,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',3,3,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',4,4,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',5,5,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',6,6,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',7,7,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,8,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,9,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,10,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,11,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,12,'diamantes');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,13,'diamantes');
 
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',1,1,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',2,2,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',3,3,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',4,4,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',5,5,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',6,6,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',7,7,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,8,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,9,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,10,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,11,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,12,'corazones');
-insert into cards (type_deck,value_in_game,cards_true_value,deck_suits)
-values('poker',0.5,13,'corazones');
+insert into card (card_id,card_name,card_value,card_real_value)
+values('31','copas',1,1);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('32','copas',2,2);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('33','copas',3,3);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('34','copas',4,4);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('35','copas',5,5);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('36','copas',6,6);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('37','copas',7,7);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('38','copas',0.5,8);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('39','copas',0.5,9);
+insert into card (card_id,card_name,card_value,card_real_value)
+values('40','copas',0.5,10);
